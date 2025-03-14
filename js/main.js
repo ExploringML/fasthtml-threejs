@@ -3,7 +3,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 // camera
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.z = 5;
+camera.position.z = 4;
 
 // scene
 const scene = new THREE.Scene();
@@ -40,7 +40,7 @@ window.addEventListener('resize', () => {
 
 // instruction ui
 const instructionsElement = document.createElement('div');
-instructionsElement.innerHTML = '<div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);color: #555; padding: 10px 20px;font-family: Arial; z-index: 100;user-select: none; pointer-events: none;"><b>Controls:</b> Left-click + drag to rotate | Right-click + drag to pan | Mouse wheel to zoom</div>';
+instructionsElement.innerHTML = '<div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);color: #555; padding: 10px 0;font-family: Arial;user-select: none; pointer-events: none;"><b>Controls:</b> Left-click + drag to rotate | Right-click + drag to pan | Mouse wheel to zoom</div>';
 document.body.appendChild(instructionsElement);
 
 // animate loop
