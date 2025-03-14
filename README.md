@@ -1,5 +1,5 @@
-# fasthtml-threejs
-A FastHTML and three.js starter kit.
+# Fasthtml & Three.js  Template
+FastHTML and three.js starter kit to help you get started building three.js applications quickly!
 
 <img src="scrn.png" style="width:75%;margin-bottom:20px;" />
 
